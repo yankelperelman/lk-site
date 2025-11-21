@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Личный кабинет</h1>
+            <nav>
+                <a href="#profile">Профиль</a>
+                <a href="#settings">Настройки</a>
+                <a href="#logout">Выход</a>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="profile" class="card">
+                <h2>Добро пожаловать!</h2>
+                <div class="profile-info">
+                    <p><strong>Имя:</strong> Пользователь</p>
+                    <p><strong>Email:</strong> user@example.com</p>
+                    <p><strong>Статус:</strong> <span class="badge">Активен</span></p>
+                </div>
+            </section>
+            
+            <section id="stats" class="card">
+                <h2>Статистика</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">150</div>
+                        <div class="stat-label">Проектов</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">48</div>
+                        <div class="stat-label">Задач</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">12</div>
+                        <div class="stat-label">Команд</div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="settings" class="card">
+                <h2>Быстрые настройки</h2>
+                <div class="settings-list">
+                    <div class="setting-item">
+                        <label>
+                            <input type="checkbox" checked>
+                            <span>Уведомления по эл. почте</span>
+                        </label>
+                    </div>
+                    <div class="setting-item">
+                        <label>
+                            <input type="checkbox">
+                            <span>Тёмная тема</span>
+                        </label>
+                    </div>
+                    <div class="setting-item">
+                        <label>
+                            <input type="checkbox" checked>
+                            <span>Двухфакторная аутентификация</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Личный кабинет. Все права защищены.</p>
+        </footer>
+    </div>
+</body>
+</html>
