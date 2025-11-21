@@ -3,75 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>AI Content Factory for YouTube Trends</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Dashboard</h1>
-            <nav>
-                <a href="#profile">Profile</a>
-                <a href="#settings">Settings</a>
-                <a href="#logout">Logout</a>
-            </nav>
+        <header class="hero">
+            <h1>AI Content Factory for YouTube Trends in 13 Languages</h1>
+            <p class="tagline">Transform trending YouTube videos into accessible multilingual text content</p>
         </header>
         
         <main>
-            <section id="profile" class="card">
-                <h2>Welcome!</h2>
-                <div class="profile-info">
-                    <p><strong>Name:</strong> User</p>
-                    <p><strong>Email:</strong> yankelperelman@gmail.com</p>
-                    <p><strong>Status:</strong> <span class="badge">Active</span></p>
-                </div>
+            <section class="intro card">
+                <h2>About the Project</h2>
+                <p>This AI-powered content factory automatically discovers recent Creative Commons licensed YouTube videos on topics like travel, self-development, and online professions, then generates original AI-written summary articles with unique headlines based on video metadata.</p>
+                <p>The system uses the YouTube Data API v3 to find trending content and creates independent, multilingual text adaptations that make YouTube trends accessible to people who prefer or need text-based content.</p>
             </section>
             
-            <section id="stats" class="card">
-                <h2>Statistics</h2>
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <div class="stat-value">150</div>
-                        <div class="stat-label">Projects</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-value">48</div>
-                        <div class="stat-label">Tasks</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-value">12</div>
-                        <div class="stat-label">Teams</div>
-                    </div>
-                </div>
+            <section class="how-it-works card">
+                <h2>How It Works</h2>
+                <p>The content factory operates transparently and responsibly:</p>
+                <ul>
+                    <li><strong>Runtime metadata access:</strong> The system reads video titles and descriptions at runtime only, never storing or redistributing them</li>
+                    <li><strong>AI content generation:</strong> Video metadata serves as input inspiration for AI to generate completely new, original text articles</li>
+                    <li><strong>Independent output:</strong> The final posts are independent content owned by the service, not YouTube metadata or derivatives</li>
+                    <li><strong>No media redistribution:</strong> No video files, audio, thumbnails, or statistics are downloaded, stored, or re-hosted</li>
+                    <li><strong>Creative Commons focus:</strong> Only processes videos with Creative Commons licenses for ethical content sourcing</li>
+                </ul>
             </section>
             
-            <section id="settings" class="card">
-                <h2>Quick Settings</h2>
-                <div class="settings-list">
-                    <div class="setting-item">
-                        <label>
-                            <input type="checkbox" checked>
-                            <span>Email notifications</span>
-                        </label>
-                    </div>
-                    <div class="setting-item">
-                        <label>
-                            <input type="checkbox">
-                            <span>Dark theme</span>
-                        </label>
-                    </div>
-                    <div class="setting-item">
-                        <label>
-                            <input type="checkbox" checked>
-                            <span>Two-factor authentication</span>
-                        </label>
-                    </div>
+            <section class="value card">
+                <h2>Independent Value & Accessibility</h2>
+                <p>This project adds significant independent value by:</p>
+                <ul>
+                    <li><strong>Multilingual adaptation:</strong> Converting video trends into adapted reading content in 13 languages including English, Spanish, German, French, Russian, Hindi, Arabic, Portuguese, Japanese, Chinese, Indonesian, Bengali, and Urdu</li>
+                    <li><strong>Accessibility support:</strong> Helping people who cannot easily watch videos due to hearing impairments, limited bandwidth, screen reader use, or language barriers</li>
+                    <li><strong>Alternative format:</strong> Providing text-based alternatives for those who prefer reading over watching</li>
+                    <li><strong>Trend awareness:</strong> Enabling users to stay informed about YouTube trends in their preferred language and format</li>
+                </ul>
+            </section>
+            
+            <section class="compliance card">
+                <h2>Privacy & Compliance</h2>
+                <p>The service is designed with YouTube API Terms of Service and Developer Policies in mind:</p>
+                <ul>
+                    <li>Does not download or re-host YouTube video or audio files</li>
+                    <li>Does not modify, replace, or interfere with any YouTube metrics or features</li>
+                    <li>Does not act as an alternative YouTube client UI or video player</li>
+                    <li>Generates independent content rather than redistributing YouTube data</li>
+                    <li>Respects Creative Commons licensing and attribution requirements</li>
+                    <li>Aims to comply with all applicable YouTube API Terms of Service</li>
+                </ul>
+            </section>
+            
+            <section class="developers card">
+                <h2>For Developers</h2>
+                <p>The content factory is available as open-source software in two versions:</p>
+                <div class="repo-links">
+                    <a href="https://github.com/yankelperelman/ContentFabrika" class="button" target="_blank">Free Version Repository</a>
+                    <a href="#" class="button">Pro Version (Coming Soon)</a>
+                </div>
+                <p class="developer-note"><strong>Important:</strong> Developers who deploy this code must use their own YouTube API key and are individually responsible for ensuring their deployment complies with YouTube's API Terms of Service and Developer Policies. The project maintainer provides the code as-is and assumes no liability for third-party deployments.</p>
+            </section>
+            
+            <section class="cta card">
+                <h2>Get Started</h2>
+                <p>Interested in using or contributing to the project?</p>
+                <div class="cta-buttons">
+                    <a href="https://github.com/yankelperelman/ContentFabrika" class="button primary" target="_blank">View Code on GitHub</a>
+                    <a href="mailto:yankelperelman@gmail.com" class="button">Contact for Collaboration</a>
                 </div>
             </section>
         </main>
         
         <footer>
-            <p>&copy; 2025 Dashboard. All rights reserved.</p>
+            <p>&copy; 2025 AI Content Factory. Built with compliance and accessibility in mind.</p>
+            <p class="small">This project uses YouTube API Services. By using this software, you agree to be bound by the YouTube Terms of Service.</p>
         </footer>
     </div>
 </body>
